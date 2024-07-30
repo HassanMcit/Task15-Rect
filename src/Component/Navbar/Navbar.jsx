@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar() {
 
-    const [button, setButton] = useState(false);
+    const [button, setButton] = useState(true);
     const [height, setheight] = useState(0);
 
     function isButtonPressed() {
