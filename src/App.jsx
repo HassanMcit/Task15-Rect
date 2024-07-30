@@ -8,7 +8,7 @@ import Start from "./Component/Start/Start";
 
 let x = createBrowserRouter([
   {
-    path: '', element: <Layout />, children: [
+    path: '/', element: <Layout />, children: [
       { index: true, element: <Start /> },
       { path: 'about', element: <About /> },
       { path: 'portfolio', element: <Portfolio /> },
